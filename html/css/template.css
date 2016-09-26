@@ -89,6 +89,7 @@ div.image {
     position: absolute;
     background-color: #333;
     min-width: 160px;
+    box-shadow: 10px 10px 5px #888888;
 }
 
 /* Links */
@@ -99,7 +100,10 @@ div.image {
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #111}
+.dropdown-content a:hover {
+  background-color: #111
+  box-shadow: 10px 10px 5px #888888;
+}
 
 .dropdown:hover .dropdown-content {
     display: block;

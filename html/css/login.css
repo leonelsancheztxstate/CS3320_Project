@@ -1,5 +1,5 @@
 
-/* Login Form */
+/* Login / Sign Up Form */
 form {
     border: 3px solid white;
     width: 350px;
@@ -12,6 +12,7 @@ input[type=text], input[type=password] {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    border-radius: 25px;
 }
 
 /* Login and Sign up fields */
@@ -27,6 +28,7 @@ button.main-buttons {
     border: none;
     cursor: pointer;
     width: 100%;
+    border-radius: 25px;
 }
 
 .cancelbtn {
