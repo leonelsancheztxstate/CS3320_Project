@@ -90,6 +90,7 @@ div.image {
     background-color: #333;
     min-width: 160px;
     box-shadow: 10px 10px 5px #888888;
+    border-radius: 10px;
 }
 
 /* Links */
@@ -111,4 +112,22 @@ div.image {
 
 .dropdown:hover .dropbtn {
     background-color: #111;
+}
+
+/* Search Box */
+.searchbar {
+  width: 420px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 20px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.searchbar input[type=text] {
+  font-size: 20px;
+  width: 100%;
+  border-radius: 25px;
+  padding-left: 10px;
 }

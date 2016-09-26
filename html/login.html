@@ -19,16 +19,25 @@
             <form action="#signup">
             <div class="container">
               <label>Username</label>
-              <input type="text" placeholder="Enter Username" name="uname" required>
+              <input type="text" placeholder="Required" name="uname" required>
+
+              <label>First Name</label>
+              <input type="text" placeholder="Optional" name="first-name" >
+
+              <label>Last Name</label>
+              <input type="text" placeholder="Optional" name="last-name" >
 
               <label>Password</label>
-              <input type="password" placeholder="Enter Password" name="psw" required>
+              <input type="password" placeholder="Required" name="psw" required>
 
               <label>Confirm Password</label>
-              <input type="password" placeholder="Enter Password" name="psw" required>
+              <input type="password" placeholder="Required" name="rpsw" required>
 
               <label>Email</label>
-              <input type="password" placeholder="Enter Password" name="psw" required>
+              <input type="email" placeholder="Required" name="email" required>
+
+              <label>Birthday</label>
+              <input type="date" name="bday" required>
 
               <button type="submit" class="main-buttons">Sign Up</button>
             </div>
